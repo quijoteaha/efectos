@@ -1,0 +1,17 @@
+commit a2feb8707c23b473e0493fb87df375f831cab8be
+Author: quijoteaha <quijoteaha@gmail.com>
+Date:   Wed Jun 19 16:10:05 2019 -0500
+
+    figure
+
+commit d0e8129907b9930ae4c073cff2a5474c757312ee
+Author: quijoteaha <quijoteaha@gmail.com>
+Date:   Wed Jun 19 16:08:09 2019 -0500
+
+    titulo y fuente
+
+commit 572208e80e65cd57cc038cf66eb4234da3926978
+Author: quijoteaha <quijoteaha@gmail.com>
+Date:   Wed Jun 19 16:02:27 2019 -0500
+
+    inicial
