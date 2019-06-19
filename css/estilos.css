@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Bubbler";
+    src: url("../fonts/BubblerOne-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-size: 0px;
+    overflow: hidden;
+}
+
+#texto {
+    font-family: Bubbler, arial;
+    font-size: 6rem;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+    text-shadow: -2px 2px 2px #34d16e, -4px 4px 2px #0a0e27;
+    animation: mueveTexto 2s linear 1;
+}
+
+@keyframes mueveTexto {
+    from {
+        right: -150px;
+        opacity: 0;
+    }
+    to {
+        rigth: 120px;
+        opacity: 1;
+    }
+}
+
+#imagen1,
+#imagen2,
+#imagen3 {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    box-shadow: 5px 5px 5px #437;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0px 20px;
+    border: 2px solid #f00;
+}
+
+img {
+    width: 246px;
+    height: 296px;
+    transition: all 0.4s ease-in-out;
+}
+
+#imagen1 img:hover {
+    transform: scale(1.3);
+}
+
+#imagen2 img {
+    transform: scale(1.3);
+}
+
+#imagen2 img:hover {
+    transform: scale(1);
+}
+
+#imagen3 figcaption {
+    width: 250px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 305px;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+#imagen3:hover figcaption {
+    top: 0px;
+}
